@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2020 the original author or authors.
+ * Copyright 2016-2019 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@
  * limitations under the License.
  *
  */
-
 package org.springframework.data.gemfire.serialization.json;
 
 import static org.junit.Assert.assertEquals;
@@ -29,12 +28,12 @@ import javax.annotation.Resource;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.apache.geode.cache.Region;
-import org.apache.geode.cache.query.SelectResults;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import org.apache.geode.cache.Region;
+import org.apache.geode.cache.query.SelectResults;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.gemfire.GemfireOperations;
